@@ -7,12 +7,13 @@ from flask import Flask, render_template, jsonify, request
 from flask_restful import Resource, Api, reqparse
 
 app = Flask(__name__)
-#api = Bubble_Sort(app)
 
 # Python3 Bubble sort
 @app.route('/', methods=['GET'])
 
-def bubbleSort(arr):
+def bubbleSort():
+    return 'JSON'
+
     n = len(arr)
    
     # Traverse through all array elements
@@ -38,9 +39,7 @@ def bubbleSort(arr):
 # number sequence to test above
 arr = [66, 37, 23, 17, 27, 14, 95]
    
-bubbleSort(arr)
-
-api.add_resource(Bubble_Sort, '/')
+bubbleSort()
 
 if __name__ == '__main__':
         app.run(host="0.0.0.0", port=5000)
