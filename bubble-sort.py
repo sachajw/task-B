@@ -12,8 +12,6 @@ app = Flask(__name__)
 @app.route('/', methods=['GET'])
 
 def bubbleSort():
-    return 'JSON'
-
     n = len(arr)
    
     # Traverse through all array elements
@@ -35,6 +33,7 @@ def bubbleSort():
         # by inner loop, then break
         if swapped == False:
             break
+    return json.dumps(arr)
            
 # number sequence to test above
 arr = [66, 37, 23, 17, 27, 14, 95]
