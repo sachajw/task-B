@@ -43,4 +43,8 @@ and for all the neccessary plugins to be installed for [Pytest](https://docs.pyt
 In order to run the tests, just type ```nox``` in the route and it will go through the ```test``` session and the ```linting``` session.
 Nox uses ```noxfile.py``` for all its session and confiugration. You will see to sections one for test and one for linting.
 
+## Phone a friend!
+* Write a script to automate your tests and static code analysis tools checks, that can run before starting up your development server on localhost.
+* If there is any failure, your server should not start up.
+
 **:heartpulse:LoveYourCodies**
