@@ -15,9 +15,10 @@ author: Sacha Wharton
 
 # task-B
 
-## Language
-* [Python3](https://www.python.org/)
+## Setup
+* Language [Python3](https://www.python.org/)
 * OS [Ubuntu 20.04](https://ubuntu.com/)
+* IDE [Microsoft VS Code](https://code.visualstudio.com/)
 
 ## Requirements
 * Using a simple micro web framework, expose the functionality of the bubble sort algorithm using HTTP and JSON.
